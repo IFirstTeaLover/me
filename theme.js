@@ -27,7 +27,7 @@ themeToggle.addEventListener("click", () => {
     document.body.appendChild(blobby);
 
     requestAnimationFrame(() => {
-        blobby.style.scale = "50";
+        blobby.style.scale = "500";
     });
 
     blobby.addEventListener("transitionend", () => {
